@@ -1,10 +1,10 @@
 [package]
 name = "vmaware"
 version = "0.1.0"
-edition = "2021"
-description = "A cross-platform Rust library for virtual machine detection — port of VMAware (C++)"
+edition = "2026"
+description = "A cross-platform Rust library for virtual machine detection."
 license = "MIT"
-repository = "https://github.com/kernelwernel/VMAware"
+repository = "https://github.com/b3nguang/VMAware-rs"
 keywords = ["vm", "detection", "hypervisor", "virtual-machine", "security"]
 categories = ["os", "hardware-support"]
 
