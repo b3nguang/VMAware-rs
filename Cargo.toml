@@ -1,12 +1,18 @@
 [package]
 name = "vmaware"
 version = "0.1.0"
-edition = "2026"
-description = "A cross-platform Rust library for virtual machine detection."
+edition = "2021"
+rust-version = "1.63"
+description = "A cross-platform Rust library for virtual machine detection — port of VMAware (C++)"
 license = "MIT"
 repository = "https://github.com/b3nguang/VMAware-rs"
+homepage = "https://github.com/b3nguang/VMAware-rs"
+documentation = "https://docs.rs/vmaware"
+readme = "README.md"
+authors = ["b3nguang"]
 keywords = ["vm", "detection", "hypervisor", "virtual-machine", "security"]
 categories = ["os", "hardware-support"]
+exclude = ["target/"]
 
 [lib]
 name = "vmaware"
